@@ -1,0 +1,136 @@
+
+/* Header-Contact */
+#header-contact {
+    background-color: #A82F14;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.header-contact-detail{
+    display: inline;
+}
+.header-contact-images {
+    height: 30px;
+    width: 30px;
+}
+
+/* Navbar-Section */
+.navbar-brand-logo {
+    height: 50px;
+    margin-left: 20px;
+}
+/* <!-- Slogan-Service-Section --> */
+#sloganService {
+    text-align: center;
+    margin-top: 60px;
+}
+.service-slogan-details {
+    margin: 0 auto 30px;
+    width: 80%;
+}
+
+
+/* Best-Selling-Section */
+#bestSelling {
+    text-align: center;
+    margin-top: 60px;
+}
+.card {
+    border: none;
+    margin-top: 30px;
+    padding: 30px;
+}
+
+/* Cta-Section */
+#cta {
+    background-color: grey;
+    text-align: center;
+    margin-top: 60px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.cta-qr-code-image {
+    width: 50%;
+}
+
+/* Our-work */
+#ourWork {
+    margin-top: 60px;
+    text-align: center;
+}
+.ourwork-image {
+    width: 50%;
+}
+
+/* Trusted Brand */
+#trustedBrand {
+    margin-top: 60px;
+    text-align: center;
+}
+.trusted-brand-images {
+    height: 200px;
+    width: 250px;
+    margin: 0 auto;
+}
+
+.chugoku-brand {
+    height: 200px;
+    width: 250px;
+    margin: 0 auto;
+}
+
+/* Articles-Section */
+#articles {
+    margin-top: 60px;
+    text-align: center;
+}
+
+/* footer-Section */
+footer {
+    background-color: #A82F14;
+    color: white;
+    margin-top: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+footer .nav-link {
+    text-decoration: none;
+    color: white;
+}
+
+/* View-all-link */
+.viewAll {
+    color: black;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+@media (max-width: 990Px) {
+    #sloganService img {
+        height: 70%;
+        width: 70%;
+        margin: auto;
+    }
+
+    #bestSelling .card {
+        height: 70%;
+        width: 70%;
+        margin: auto;
+        padding-top: 20px;
+    }
+
+    .ourwork-image {
+        height: 100%;
+        width: 100%;
+    }
+
+    footer .location-detail {
+        border-top: 2px solid black;
+        border-bottom: 2px solid black;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        padding-top: 5px;
+    }
+}
